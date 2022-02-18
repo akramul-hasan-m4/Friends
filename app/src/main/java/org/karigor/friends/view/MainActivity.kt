@@ -26,6 +26,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         viewModel = ViewModelProvider(this)[FriendsViewModel::class.java]
         getFriends()
+        configSwipeToRefresh()
+    }
+
+    private fun configSwipeToRefresh(){
+        binding.swipeRefreshLayout.setOnRefreshListener {
+            getFriends()
+        }
     }
 
     private fun getFriends(){
@@ -38,6 +45,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 binding.ivNoData.visibility = View.GONE
             }
+            binding.swipeRefreshLayout.isRefreshing = false
             binding.progressLayout.visibility = View.GONE
         }
     }
