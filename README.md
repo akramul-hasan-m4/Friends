@@ -2,7 +2,7 @@
 
 #### A sample android app for display random user data
 
-<img src="images/img1.png" width="270" /> ![Details](images/img2.png)
+<img src="images/img1.png" width="50%" /> <img src="images/img2.png" width="50%" />
 
 
 ### Features
