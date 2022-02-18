@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Friends</string>
+    <string name="please_wait">Please wait....</string>
+    <string name="friends_full_info">Friend Details</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="email">Email</string>
+    <string name="CellPhone">Cell Phone</string>
+</resources>

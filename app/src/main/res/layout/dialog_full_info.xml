@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"
+            android:background="@color/purple_700"
+            android:gravity="center"
+            android:text="@string/friends_full_info"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:backgroundTint="@color/purple_700"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_baseline_close_24"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_character_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_user"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:background="@color/purple_500"
+            android:padding="5dp"
+            android:text="@string/name"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="Name" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:background="@color/purple_500"
+            android:padding="5dp"
+            android:text="@string/address"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="Uttara" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:background="@color/purple_500"
+            android:padding="5dp"
+            android:text="@string/city"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="Dhaka" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:background="@color/purple_500"
+            android:padding="5dp"
+            android:text="@string/state"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="state" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:background="@color/purple_500"
+            android:padding="5dp"
+            android:text="@string/country"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_country"
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="BD" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:background="@color/purple_500"
+            android:padding="5dp"
+            android:text="@string/email"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:autoLink="email"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="abc@gmail.com" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:background="@color/purple_500"
+            android:padding="5dp"
+            android:text="@string/CellPhone"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_cell"
+            android:layout_width="@dimen/pixel_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:autoLink="phone"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="012545555" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>
